@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Ac">
+
+    <com.jesusm.holocircleseekbar.lib.HoloCircleSeekBar
+        android:id="@+id/picker"
+        android:layout_width="285dp"
+        android:layout_height="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        android:scrollbarSize="60dp"
+        android:textAlignment="center"
+        app:end_angle="330"
+        app:init_position="16"
+        app:max="14"
+        app:pointer_color="#0174DF"
+        app:pointer_halo_color="#88252525"
+        app:pointer_size="30dp"
+        app:show_text="false"
+        app:start_angle="30"
+        app:wheel_active_color="@android:color/holo_blue_bright"
+        app:wheel_unactive_color="#FFCCCCCC" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="145dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="75sp"
+        tools:layout_width="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginEnd="84dp"
+        app:srcCompat="@drawable/high" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginStart="190dp"
+        android:background="@drawable/medium"
+        android:textOff=""
+        android:textOn=""
+        app:srcCompat="@drawable/medium"
+       />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="114dp"
+
+        app:srcCompat="@drawable/medium" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignTop="@+id/toggleButton5"
+        android:background="@drawable/low"
+        android:text="ToggleButton"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/toggleButton9"
+        android:layout_alignTop="@+id/toggleButton5"
+        app:srcCompat="@drawable/low" />
+    <ToggleButton
+        android:id="@+id/toggleButton8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/toggleButton5"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/auto"
+        android:text="ToggleButton"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/toggleButton5"
+        android:layout_toEndOf="@+id/toggleButton8"
+        android:background="@drawable/auto"
+        app:srcCompat="@drawable/auto" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView9"
+        android:background="@drawable/hot"
+        android:text="ToggleButton"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        app:srcCompat="@drawable/hot" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/fan"
+        android:text="ToggleButton"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="114dp"
+        app:srcCompat="@drawable/fan" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/cool"
+        android:text="ToggleButton"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/toggleButton8"
+        app:srcCompat="@drawable/cool" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/toggleButton5"
+        android:background="@drawable/button_on"
+        android:text="Fan"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_on"
+        android:text="Modes"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignTop="@+id/imageView5"
+        android:background="@drawable/high"
+        android:onClick="high"
+        android:textOff=""
+        android:textOn="" />
+
+
+</RelativeLayout>
